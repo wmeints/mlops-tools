@@ -10,18 +10,18 @@ We've run into quite a few limitations and issues with the tooling that Microsof
 
 ### Goals
 
-At Aigency we try to achieve a number of goals, which we've split up in two groups. First, we have the following quality goals:
+At Aigency we try to achieve a number of goals, which we've split up in two groups. First, we have the following functional goals:
+
+1. Store, version, and describe datasets used in our projects
+2. Store, version, describe, and deploy models used in our projects
+3. Manage and execute pipelines used to process data and train models
+
+We also have a number of quality goals:
 
 1. Great developer experience, you should be able to debug and test locally before deploying pipelines
 2. Easy to set up and easy to maintain, you should not spend your time fighting versions or perform operations tasks
 3. Safe, our customers expect a safe environment, and we should be able to provide that
 4. Just enough tooling, We're not working for Facebook or Airbnb. We need a flexible environment that's cost-effective.
-
-Next, we also have a number of functional requirements:
-
-1. Store, version, and describe datasets used in our projects
-2. Store, version, describe, and deploy models used in our projects
-3. Manage and execute pipelines used to process data and train models
 
 ### Constraints
 
@@ -47,7 +47,7 @@ You'll have to provide an actual storage mechanism yourself.
 
 ## Getting started
 
-As I mentioned at the beginning of this README. This is a collection of tools, so there's no single manual to deploy all the tools.
+As we mentioned at the beginning of this README. This is a collection of tools, so there's no single manual to deploy all the tools.
 We've recorded documentation to explain how things work and how they fit together. Please check the individual sections in the 
 docs to pick a tool and deploy it.
 
