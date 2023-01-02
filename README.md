@@ -28,7 +28,7 @@ We also have a number of quality goals:
 Please be aware that while your tool may look awesome, we may not adopt it in the collection here.
 We operate according to these constraints:
 
-1. Use before build and avoid buy. We like to give back to the ML community instead of spending dollars/euros on cloud solutions.
+1. Use before build and avoid buy. We value openness, and community interaction.
 2. Python-only, we know there are many other options, but this is what we use at Aigency.
 3. Tools must integrate with commonly used GIT implementations and commonly used CI/CD tools.
 
