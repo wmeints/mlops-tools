@@ -53,9 +53,10 @@ docs to pick a tool and deploy it.
 
 ## Documentation
 
-1. [Solution strategy](./docs/solution-strategy.md)
-2. [Building blocks](./docs/building-blocks/index.md)
-3. [Runtime scenarios](./docs/runtime-scenarios/index.md)
-4. [Crosscutting concerns](./docs/crosscutting-concepts.md)
+1. [Concepts](./docs/concepts.md)
+2. [Solution strategy](./docs/solution-strategy.md)
+3. [Building blocks](./docs/building-blocks/index.md)
+4. [Runtime scenarios](./docs/runtime-scenarios/index.md)
+5. [Crosscutting concerns](./docs/crosscutting-concepts.md)
 
 [1]: https://arxiv.org/abs/2205.02302
