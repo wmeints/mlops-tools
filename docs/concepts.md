@@ -7,12 +7,15 @@ We want to realize these concepts with tools to get the most value out of our ma
 ## CI/CD automation
 
 CI/CD automation provides continuous integration, and continuous deployment. We use this to implement automated pipelines that lint, 
-test, and deploy code. It provides feedback about the quality of the code used in the solution.
+test, and deploy code. It provides feedback about the quality of the code used in the solution. We prefer to automate much of the
+code quality verification steps as it takes a lot of time away from working on improving the model. Code quality verification is
+a tedious task, which we easily skip over, automation protects us from being lazy.
 
 ## Workflow orchestrations
 
 Workflow orchestrations coordinate pipelines of tasks as directed-acyclic graphs for processing data and training models. 
-We use workflows to automate steps to train and evaluate models and to prepare datasets.
+We use workflows to automate steps to train and evaluate models and to prepare datasets. By automating data processing
+and training workflows we make our work reproducable.
 
 ## Reproducability
 
@@ -22,6 +25,9 @@ There are a number of reasons why we value reproducability:
 1. It makes the product more trustworthy, because we know we can get the same results multiple times.
 2. There are new regulations coming up that require traceable results. 
 3. It increases quality of our work, we can more easily reproduce errors and fix them.
+
+Whenever we work on a piece of the solution we want to make sure that we collect the right data to reproduce experiments.
+We go as far as fixating random seeds to ensure that we get the same random numbers every time.
 
 ## Versioning of data, code, and models
 
