@@ -19,9 +19,9 @@ At Aigency we try to achieve a number of goals, which we've split up in two grou
 We also have a number of quality goals:
 
 1. Great developer experience, you should be able to debug and test locally before deploying pipelines
-2. Easy to set up and easy to maintain, you should not spend your time fighting versions or perform operations tasks
+2. Easy to set up and easy to maintain, we want to focus on business value not operations
 3. Safe, our customers expect a safe environment, and we should be able to provide that
-4. Just enough tooling, We're not working for Facebook or Airbnb. We need a flexible environment that's cost-effective.
+4. Just enough tooling. We need a flexible environment that's cost-effective.
 
 ### Constraints
 
