@@ -31,6 +31,7 @@ We operate according to these constraints:
 1. Use before build and avoid buy. We value openness, and community interaction.
 2. Python-only, we know there are many other options, but this is what we use at Aigency.
 3. Tools must integrate with commonly used GIT implementations and commonly used CI/CD tools.
+4. We use cloud-native tools like containers and kubernetes, because we have customers with different platforms.
 
 ### Scope
 
