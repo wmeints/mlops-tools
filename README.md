@@ -31,7 +31,7 @@ We operate according to these constraints:
 1. Use before build and avoid buy. We value openness, and community interaction.
 2. Python-only, we know there are many other options, but this is what we use at Aigency.
 3. Tools must integrate with commonly used GIT implementations and commonly used CI/CD tools.
-4. We use cloud-native tools like containers and kubernetes, because we have customers with different platforms.
+4. We use containers and kubernetes, because we have customers with different platforms.
 
 ### Scope
 
@@ -45,6 +45,8 @@ assume that you have a CI/CD tool and a GIT repo to store the source code for yo
 
 Another important thing to note: We included feature stores as a component, but we don't include things like S3 storage or Azure Blob Storage.
 You'll have to provide an actual storage mechanism yourself.
+
+You should bring your own Kubernetes cluster. We can't explain how to set that up.
 
 ## Getting started
 
